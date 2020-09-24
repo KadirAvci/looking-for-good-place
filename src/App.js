@@ -1,10 +1,18 @@
 import React, {Component} from 'react';
-import Site from './containers/Site/Site'
+import "./App.css";
+import {BrowserRouter} from "react-router-dom";
+import Site from './containers/Site/Site';
+import "bootstrap/dist/css/bootstrap.min.css";
 
+/**
+ *@author contact@avci-kadir.com
+ */
 class App extends Component {
     render() {
         return (
-            <Site/>
+            <BrowserRouter>
+                <Site/>
+            </BrowserRouter>
         );
     }
 }
