@@ -19,7 +19,7 @@ class Site extends Component {
                     <NavBar/>
                     <Container>
                         <Switch>
-                            <Route path={"/accueil"} exact render={()=><Accueil/>}/>
+                            <Route path={"/"} exact render={()=><Accueil/>}/>
                             <Route path={"/localisation"} component={()=><Localisation/>}/>
                             <Route path={"/contact"} render={(props)=><Contact {...props}/>}/>
                             <Route render={()=><Erreur404/>}/>

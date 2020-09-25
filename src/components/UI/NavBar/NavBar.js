@@ -14,7 +14,7 @@ const navBar = (props) => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
-                        <LinkContainer to={"/accueil"} exact>
+                        <LinkContainer to={"/"} exact>
                             <Nav.Link>Accueil</Nav.Link>
                         </LinkContainer>
                         <LinkContainer to={"/localisation"} exact>
